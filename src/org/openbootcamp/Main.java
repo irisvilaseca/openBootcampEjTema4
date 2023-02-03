@@ -27,6 +27,18 @@ public class Main {
         for(int numeroFor=0;numeroFor<=3;numeroFor++){
             System.out.println(numeroFor);
         }
-
+        String estacion = "invierno";
+        switch(estacion){
+            case "invierno":
+                System.out.println("Es invierno");
+            case "primavera":
+                System.out.println("Es primavera");
+            case "verano":
+                System.out.println("Es verano");
+            case "otoño":
+                System.out.println("Es otoño");
+            default:
+                System.out.println("No es una estación");
+        }
     }
 }
