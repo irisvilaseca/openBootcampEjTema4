@@ -3,7 +3,8 @@ package org.openbootcamp;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        //Conditionals activity
         int numeroIf=0;
         if(numeroIf>0){
             System.out.println("La variable es un número positivo");
@@ -12,21 +13,27 @@ public class Main {
         }else{
             System.out.println("La variable es cero");
         }
+
+        //While loop activity
         int numeroWhile=0;
         while(numeroWhile<3){
             numeroWhile++;
             System.out.println(numeroWhile);
         }
 
+        //Do-while loop activity
         int numeroDoWhile=3;
         do{
             numeroDoWhile++;
             System.out.println(numeroDoWhile);
         }while(numeroDoWhile<3);
 
+        //For loop activity
         for(int numeroFor=0;numeroFor<=3;numeroFor++){
             System.out.println(numeroFor);
         }
+
+        //Switch activity
         String estacion = "invierno";
         switch(estacion){
             case "invierno":
